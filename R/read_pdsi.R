@@ -76,7 +76,7 @@ read_pdsi_ouput <- function(outdir, scale = "monthly") {
         return(lst)
     }
 
-    scale %>% intersect(c("monthly", "weekly")) %<>% set_names(., .)
+    scale %<>% intersect(c("monthly", "weekly")) %>% set_names(., .)
     res <- map(scale, FUN)
     if (length(scale) == 1) res <- res[[1]]
     return(res)

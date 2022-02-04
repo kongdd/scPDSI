@@ -68,6 +68,7 @@ lst <- map_depth(lst_files, 2, read_pdsi_input)
         # y0_scpdsi <- r$`self_cal/PDSI.tbl`
         y0 <- y0_pdsi
 
+        # convert in into mm
         sc_pdsi <- with(df,
                         pdsi(P*25.4, PE*25.4, start = 1893, AWC = 12.18*25.4,
                              sc = TRUE, cal_start = 1961, cal_end = 1990, num_of_periods = 52))

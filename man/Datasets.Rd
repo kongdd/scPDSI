@@ -9,11 +9,13 @@
 \alias{data}
 \alias{of}
 \title{Datasets for illustrating the functions in the scPDSI package.}
-\format{\code{Lubuge} dataset:
+\format{
+\code{Lubuge} dataset:
 \itemize{
-\item \code{P} monthly precipitation totals \code{[mm]}.
-\item \code{PE} monthly potential evapotranspiration totals \code{[mm]}.
-}}
+\item \code{P} monthly precipitation totals \verb{[mm]}.
+\item \code{PE} monthly potential evapotranspiration totals \verb{[mm]}.
+}
+}
 \source{
 Data of \code{Lubuge} were obtained from the CRU TS v4.01 datasets released by the
 Climatic Research Unit (CRU)

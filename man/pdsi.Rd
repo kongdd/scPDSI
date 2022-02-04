@@ -4,17 +4,26 @@
 \alias{pdsi}
 \title{Calculate the (sc)PDSI}
 \usage{
-pdsi(P, PE, AWC = 100, start = NULL, end = NULL, cal_start = NULL,
-  cal_end = NULL, sc = TRUE, num_of_periods = 12)
+pdsi(
+  P,
+  PE,
+  AWC = 100,
+  start = NULL,
+  end = NULL,
+  cal_start = NULL,
+  cal_end = NULL,
+  sc = TRUE,
+  num_of_periods = 12
+)
 }
 \arguments{
-\item{P}{Monthly precipitation series without NA \code{[mm]}. Can be a time series.}
+\item{P}{Monthly precipitation series without NA \verb{[mm]}. Can be a time series.}
 
 \item{PE}{Monthly potential evapotranspiration corresponding to the precipitation
 series. Can be calculated by the Penman-Monteith or the Thonthwate
-equation \code{[mm]}.}
+equation \verb{[mm]}.}
 
-\item{AWC}{Available soil water capacity of the soil layer \code{[mm]}. Default 100 mm.}
+\item{AWC}{Available soil water capacity of the soil layer \verb{[mm]}. Default 100 mm.}
 
 \item{start}{Integer. Start year of the PDSI to be calculate default 1.}
 

@@ -5,6 +5,11 @@
 
 using namespace Rcpp;
 
+#ifdef RCPP_USE_GLOBAL_ROSTREAM
+Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
+Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
+#endif
+
 // C_pdsi
 List C_pdsi(NumericVector P, NumericVector PE, double AWC, int s_yr, int e_yr, int calib_s_yr, int calib_e_yr, bool sc, int num_of_periods, double K1_1, double K1_2, double K1_3, double K2, double p, double q);
 RcppExport SEXP _scPDSI_C_pdsi(SEXP PSEXP, SEXP PESEXP, SEXP AWCSEXP, SEXP s_yrSEXP, SEXP e_yrSEXP, SEXP calib_s_yrSEXP, SEXP calib_e_yrSEXP, SEXP scSEXP, SEXP num_of_periodsSEXP, SEXP K1_1SEXP, SEXP K1_2SEXP, SEXP K1_3SEXP, SEXP K2SEXP, SEXP pSEXP, SEXP qSEXP) {
