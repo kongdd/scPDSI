@@ -36,6 +36,6 @@ Imports:
     purrr
 URL: https://github.com/Sibada/scPDSI
 BugReports: https://github.com/Sibada/scPDSI/issues
-RoxygenNote: 7.1.2
+RoxygenNote: 7.3.1
 LinkingTo: Rcpp
 Roxygen: list(markdown = TRUE)

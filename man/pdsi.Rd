@@ -155,7 +155,9 @@ plot(gb_pdsi)
 }
 \references{
 Palmer W., 1965. Meteorological drought. U.s.department of Commerce
-Weather Bureau Research Paper.\preformatted{        Wells, N., Goddard, S., Hayes, M. J., 2004. A Self-Calibrating Palmer
+Weather Bureau Research Paper.
+
+\if{html}{\out{<div class="sourceCode">}}\preformatted{        Wells, N., Goddard, S., Hayes, M. J., 2004. A Self-Calibrating Palmer
         Drought Severity Index. Journal of Climate, 17(12):2335-2351.
-}
+}\if{html}{\out{</div>}}
 }

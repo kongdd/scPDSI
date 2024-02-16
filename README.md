@@ -1,8 +1,12 @@
 # scPDSI
-[![Travis-CI Build Status](https://travis-ci.org/kongdd/scPDSI.svg?branch=master)](https://travis-ci.org/kongdd/scPDSI)
-[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/scPDSI)](https://cran.r-project.org/package=scPDSI)
-[![CRAN version](http://www.r-pkg.org/badges/version/scPDSI)](https://cran.r-project.org/package=scPDSI)
- * Turn on travis for your repo at https://travis-ci.org/kongdd/scPDSI
+
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/rpkgs/scPDSI/workflows/R-CMD-check/badge.svg)](https://github.com/rpkgs/scPDSI/actions)
+[![codecov](https://codecov.io/gh/rpkgs/scPDSI/branch/master/graph/badge.svg)](https://codecov.io/gh/rpkgs/scPDSI)
+[![License](http://img.shields.io/badge/license-GPL%20%28%3E=%203%29-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-3.0.html)
+[![CRAN](http://www.r-pkg.org/badges/version/scPDSI)](https://cran.r-project.org/package=scPDSI)
+<!-- badges: end -->
 
 This R package is used to calculate the conventional **Palmer Drought Severity Index (PDSI)** and the **Self-Calibrating Palmer Drought Severity Index (scPDSI)**, the widely used drought indicators around the world, at <u>**monthly and weekly**</u> scale. Precipitation and potential evapotranspiration (PE) data are required to calculate the PDSI and scPDSI.
 
